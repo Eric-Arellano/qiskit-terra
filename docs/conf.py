@@ -165,6 +165,9 @@ plot_html_show_formats = False
 # Source code links
 # ----------------------------------------------------------------------------------
 
+print("HERE")
+print(os.environ.get("QISKIT_DOCS_GITHUB_BRANCH_NAME", "main"))
+
 
 def linkcode_resolve(domain, info):
     if domain != "py":
